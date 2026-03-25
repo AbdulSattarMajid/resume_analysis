@@ -34,7 +34,8 @@ def check_grammar(text):
     
     for match in matches:
         # Check if the triggered rule is in our ignore list
-        if any(rule in match.ruleId for rule in ignore_rules):
+        # UPDATED: ruleId -> rule_id
+        if any(rule in match.rule_id for rule in ignore_rules):
             continue
             
         errors.append({
