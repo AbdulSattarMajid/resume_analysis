@@ -7,3 +7,5 @@ pandas>=2.1.1
 numpy>=1.24.3
 scikit-learn>=1.3.2
 fpdf>=1.7.2
+docx2txt>=0.8
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
