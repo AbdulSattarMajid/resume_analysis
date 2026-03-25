@@ -2,15 +2,10 @@ import spacy
 import json
 import os
 import re
-import subprocess
-import sys
+
 # LOAD THE LINGUISTIC ENGINE
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    # If the cloud server doesn't have it, force it to download right now
-    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")
+
 def load_skills():
     """Step 1: Loads the Categorized JSON Taxonomy """
     json_path = os.path.join("data", "skill_taxonomy.json")
