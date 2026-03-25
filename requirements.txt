@@ -4,7 +4,7 @@ PyPDF2
 pdfminer.six
 language-tool-python
 pandas
-numpy
+numpy<2.0.0
 scikit-learn
 fpdf
 docx2txt
