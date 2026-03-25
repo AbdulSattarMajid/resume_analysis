@@ -1,0 +1,62 @@
+{
+  "Backend_Developer": {
+    "Programming Languages": ["Python", "Java", "Go", "Node.js", "C++", "PHP", "SQL"],
+    "Frameworks": ["Django", "Spring Boot", "Express", "FastAPI", "Laravel", "NestJS", "Flask", "Django REST Framework"],
+    "Databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Cassandra", "SQLite", "Elasticsearch"],
+    "Tools & DevOps": ["Docker", "Kubernetes", "REST API", "Microservices", "CI/CD", "GitHub Actions", "RabbitMQ", "Kafka"]
+  },
+  "Frontend_Developer": {
+    "Programming Languages": ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+    "Frameworks": ["React", "Vue", "Angular", "Next.js", "Tailwind CSS", "Bootstrap", "Svelte", "Nuxt.js"],
+    "State Management & Tools": ["Redux", "Vite", "Webpack", "SASS", "Context API", "React Query"],
+    "Web Fundamentals": ["DOM Manipulation", "Responsive Design", "Web Performance", "Browser APIs"]
+  },
+  "Fullstack_Developer": {
+    "Languages": ["JavaScript", "TypeScript", "Python", "SQL"],
+    "Frontend Tech": ["React", "Next.js", "HTML5", "CSS3", "Tailwind"],
+    "Backend Tech": ["Node.js", "Express", "Django", "PostgreSQL", "MongoDB"],
+    "General": ["Git", "Docker", "REST API", "AWS", "Firebase"]
+  },
+  "DevOps_Engineer": {
+    "Cloud Providers": ["AWS", "Azure", "GCP", "DigitalOcean"],
+    "Containerization": ["Docker", "Kubernetes", "Helm", "OpenShift"],
+    "Infrastructure as Code": ["Terraform", "Ansible", "CloudFormation", "Pulumi"],
+    "CI/CD & Monitoring": ["Jenkins", "GitHub Actions", "GitLab CI", "Prometheus", "Grafana", "ELK Stack"]
+  },
+  "Data_Scientist": {
+    "Languages": ["Python", "R", "SQL", "Julia"],
+    "Libraries": ["Pandas", "NumPy", "Scikit-Learn", "Matplotlib", "Seaborn", "TensorFlow", "PyTorch"],
+    "Concepts": ["Machine Learning", "Deep Learning", "Statistics", "Data Visualization", "NLP", "Computer Vision"],
+    "Tools": ["Jupyter Notebook", "Tableau", "PowerBI", "Hadoop", "Spark"]
+  },
+  "Mobile_Developer": {
+    "Languages": ["Swift", "Kotlin", "Dart", "Objective-C", "Java"],
+    "Frameworks": ["React Native", "Flutter", "SwiftUI", "Jetpack Compose", "Xamarin"],
+    "Backend Integration": ["Firebase", "App Store Connect", "Google Play Console", "SQLite"],
+    "Mobile Specific": ["Core Data", "Auto Layout", "Navigation Patterns", "Push Notifications"]
+  },
+  "QA_Engineer": {
+    "Testing Types": ["Manual Testing", "Automation Testing", "Unit Testing", "Integration Testing", "Regression Testing"],
+    "Tools": ["Selenium", "Pytest", "Cypress", "Postman", "Junit", "JMeter", "Appium"],
+    "Management": ["Jira", "TestRail", "Bugzilla", "Trello"],
+    "Automation": ["Behavior Driven Development (BDD)", "Cucumber", "Robot Framework"]
+  },
+  "Cyber_Security": {
+    "Testing": ["Penetration Testing", "Ethical Hacking", "Vulnerability Assessment", "Digital Forensics"],
+    "Tools": ["Wireshark", "Metasploit", "Nmap", "Burp Suite", "Kali Linux"],
+    "Network & Defense": ["Firewalls", "SIEM", "IDS/IPS", "Cryptography", "Identity Access Management (IAM)"],
+    "Compliance": ["SOC2", "ISO 27001", "GDPR", "HIPAA"]
+  },
+  "AI_Engineer": {
+    "AI Models": ["LLMs", "GPT", "Gemini", "Claude", "Llama", "Stable Diffusion"],
+    "Development": ["LangChain", "OpenAI API", "HuggingFace", "Prompt Engineering", "Fine-tuning"],
+    "Data Infrastructure": ["Vector Databases", "Pinecone", "ChromaDB", "Milvus"],
+    "Core Math": ["Linear Algebra", "Calculus", "Probability", "Neural Networks"]
+  },
+  "Data_Engineer": {
+    "Big Data": ["Apache Spark", "Hadoop", "Hive", "Presto", "Flink"],
+    "Pipelines": ["ETL", "Apache Airflow", "Luigi", "Prefect"],
+    "Storage": ["Snowflake", "BigQuery", "Redshift", "Data Lakes", "AWS S3"],
+    "Streaming": ["Kafka", "RabbitMQ", "Apache Flink", "Kinesis"]
+  }
+}

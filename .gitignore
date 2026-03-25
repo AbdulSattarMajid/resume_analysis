@@ -1,0 +1,15 @@
+# Ignore the massive Virtual Environment folder
+.venv/
+venv/
+env/
+
+# Ignore Python background junk
+__pycache__/
+*.pyc
+
+# Ignore temporary uploaded resumes (Crucial for privacy!)
+temp_*.pdf
+temp_*.docx
+
+# Ignore API Keys or Environment variables (for when you add Gemini later)
+.env
